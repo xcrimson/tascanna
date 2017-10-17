@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="userpic_side">50dp</dimen>
+    <dimen name="side_padding">20dp</dimen>
+    <dimen name="inside_padding">10dp</dimen>
+    <dimen name="button_width">140dp</dimen>
+    <dimen name="interline">4dp</dimen>
+    <dimen name="half_interline">2dp</dimen>
+</resources>

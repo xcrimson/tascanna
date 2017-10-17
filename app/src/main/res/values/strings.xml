@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Tascanna</string>
+
+    <string name="my_projects_toolbar_title">My projects</string>
+    <string name="new_tasks_toolbar_title">%s new tasks</string>
+
+    <string name="hint_content">Content (mandatory)</string>
+    <string name="hint_description">Description</string>
+
+    <string name="everyone">Everyone</string>
+    <string name="add_new_tasks">New tasks</string>
+    <string name="submit_tasks">Submit tasks</string>
+    <string name="error_loading_data">Necessary data was not loaded</string>
+    <string name="reload_data">Retry loading data</string>
+    <string name="delete_task">Delete task</string>
+    <string name="task_list">Task list</string>
+    <string name="priority">Priority</string>
+    <string name="responsible_party">Responsible party</string>
+    <string name="reload_projects">Reload projects</string>
+    <string name="start_date">Start date</string>
+    <string name="due_date">Due date</string>
+
+    <string name="label_responsible">responsible:</string>
+    <string name="label_task_list">task list:</string>
+    <string name="label_priority">priority:</string>
+    <string name="label_start_date">start date:</string>
+    <string name="label_due_date">due date:</string>
+
+    <string name="no_task_lists">Project does not have any task lists</string>
+    <string name="cant_submit_tasks">Cannot submit new tasks right now</string>
+    <string name="wait_please">Please wait for the operation to finish</string>
+    <string name="no_person_selected">Responsible party cannot be empty</string>
+    <string name="add_tasks_partial_success">Some tasks were not added</string>
+    <string name="start_date_in_past">Start date cannot be in past</string>
+    <string name="due_date_in_past">Due date cannot be in past</string>
+    <string name="due_date_before_start_date">Due date cannot be before start date</string>
+    <string name="tasks_added_successfully">All tasks were added successfully</string>
+
+    <string-array name="priorities">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+
+</resources>

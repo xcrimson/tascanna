@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/side_padding"
+    android:paddingRight="@dimen/side_padding"
+    android:paddingTop="@dimen/side_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/side_padding">
+
+        <FrameLayout
+            android:id="@+id/userpic_and_letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/userpic"
+                android:layout_width="@dimen/userpic_side"
+                android:layout_height="@dimen/userpic_side"
+                android:background="@drawable/primary_color_circle" />
+
+            <TextView
+                android:id="@+id/letter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="L"
+                android:textColor="@android:color/white"
+                android:textSize="26sp" />
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/project_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/project_name"
+            android:layout_toRightOf="@+id/userpic_and_letter"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:paddingBottom="@dimen/inside_padding"
+            android:paddingLeft="@dimen/inside_padding"
+            android:paddingTop="@dimen/inside_padding"
+            android:text="Project" />
+
+        <TextView
+            android:id="@+id/project_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/userpic_and_letter"
+            android:layout_alignTop="@+id/userpic_and_letter"
+            android:layout_toRightOf="@+id/userpic_and_letter"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/inside_padding"
+            android:text="Project"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/new_tasks_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/project_description"
+            android:text="@string/add_new_tasks" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey">
+
+    </FrameLayout>
+
+</LinearLayout>
